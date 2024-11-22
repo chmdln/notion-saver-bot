@@ -50,5 +50,6 @@ def get_time(message):
     iso_8601_date = timestamp.isoformat() 
     if timestamp.tzinfo is None:
         iso_8601_date += "Z"
+    return iso_8601_date
 
         
